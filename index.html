@@ -6,7 +6,34 @@
     <link href='./game.css' rel='stylesheet' type='text/css'/>
   </head>
   <body>
-    <canvas id='game' width='600' height='600'></canvas>
+    <section id='flex'>
+      <article id='instructions'>
+        <h3>Objective</h3>
+        <p>Navigate the snake to eat as many apples (red blocks) as possible without accidentally running into yourself or the walls!
+        </p>
+        <h3>Instructions</h3>
+          <p>Use the arrow keys to navigate the snake.</p>
+          <p>Eat apples to increase your score!</p>
+          <p>If you hit a wall, you WILL die.</p>
+          <p>If you "accidentally" eat yourself, you WILL die.</p>
+          <p>You will have three lives to reach a high score.</p>
+          <p>Press the start button when you're ready!</p>
+      </article>
+      <section id='game-btns'>
+      <canvas id='game' width='600' height='600'></canvas>
+      <button id='start-btn'>start</button>
+      <button id='reset-btn'>reset</button>
+      </section>
+      <article id='game-stats'>
+        <h3>Score</h3>
+        <p id='score'></p>
+        <h3>Lives</h3>
+        <p id='lives'></p>
+      </article>
+    </section>            
+
     <script src="main.bundle.js"></script>
   </body>
 </html>
+
+
