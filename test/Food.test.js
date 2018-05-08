@@ -14,12 +14,12 @@ describe('Food', function() {
 
   it('should have a default color', function() {
     let food = new Food;
-    assert.equal(food.color, 'red');
+    assert.equal(food.color, 'pink');
   })
 
   it('should have a default color', function() {
     let food = new Food;
-    assert.equal(food.color, 'red');
+    assert.equal(food.color, 'pink');
   })
 
   it('should have a default width and height of fifteen', function() {

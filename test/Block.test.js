@@ -20,6 +20,6 @@ describe('block', function() {
 
   it('should have a default color', function() {
     let block = new Block;
-    assert.equal(block.color, 'black');
+    assert.equal(block.color, 'brown');
   })
 })
