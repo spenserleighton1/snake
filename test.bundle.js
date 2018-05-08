@@ -65,9 +65,6 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/mocha-loader/index.js!./test/index.js");
-/******/ })
 /************************************************************************/
 /******/ ({
 
@@ -198,7 +195,7 @@ AssertionError.prototype.toJSON = function (stack) {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js!./test/index.js":
+/***/ "./node_modules/babel-loader/lib/index.js!":
 /*!*******************************************************!*\
   !*** ./node_modules/babel-loader/lib!./test/index.js ***!
   \*******************************************************/

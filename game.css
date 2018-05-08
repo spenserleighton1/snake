@@ -1,17 +1,19 @@
 #game {
-  background-color: rgba(255, 0, 0, 0.4);
+  background-color: #749D34;
   border: 1px solid;
   display: block;
   margin: 1rem;
 }
 
-
+header {
+  font-size: 2.3rem;
+}
 
 body {
+  font-size: 1.1rem;
   font-family: 'Varela Round', sans-serif;
-/*  color: white;
-  background-position: cover;
-  background-image: url('https://images.alphacode*/rs.com/183/183563.jpg')
+  background-color: #CCEB9D;
+  color: #2F4E00;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
   text-align: center;
 }
 
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -33,19 +35,23 @@ footer {
 
 #instructions,
 #game-stats {
-  margin: 1rem;
-  width: 20rem;
+  margin: 3.5rem;
+  width: 25rem;
 }
 
 #game-stats {
   text-align: center;
 }
 
+#high-score, 
+#score {
+  font-size: 2rem;
+}
+
 #start-btn,
 #reset-btn {
   width: 17rem;
   height: 2rem;
-  margin: 1rem;
+  margin-left: 1.8rem;
+  background-color: white; 
 }
-
-/*creat seperate body class to give the suer different solor schemes*/
