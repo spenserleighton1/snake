@@ -1,24 +1,35 @@
 const chai = require('chai');
-const expect = chai.expect;
+const assert = chai.assert;
 let Snake = require('../lib/Snake.js');
+let Game = require('../lib/Game.js');
 
 describe('snake', function() {
   it('should have a tail and a head ', function() {
     var snake = new Snake(context);
+    console.log(snake)
     snake.move(context);
     assert.exists(tail);
     assert.exists(snake.head);
   });
 
-  it('should start with 5 segments', function() {
-    var snake = new Snake();
-    assert.equal(snake.body.length, 5)
+  it.only('should start with an empty body', function() {
+    let snake = new Snake;
+    assert.deepEqual(snake.body.length, 0)
+  });
+
+  it('should grow to a length of five blocks when create snake is called', function() {
+    let game = new Game;
+    var snake = new Snake;
+    snake.createSnake(context)
+    assert.deeEqual(snake.body.length, 4)
   });
 });
 
 describe('game', function() {
   it('should grow when it eats an apple', function() {
-    var snake = new Snake();
+    let game = new Game;
+    let snake = new Snake;
+
     assert.equal(game.score, 0);
     game.eat();
     assert.equal(game.score, 10);
@@ -38,13 +49,13 @@ describe('game', function() {
 
   it('should not be over initially', function() {
     var snake = new Snake();
-    assert.equal(game.gameOver, false);
+    assert.equal(game.gameOver, false); 
   });
 });
 
-  it('should disappear when eaten', function() {
-    //setup
-    //execution
-    //assertion
-  });
-});
+//   it('should disappear when eaten', function() {
+//     //setup
+//     //execution
+//     //assertion
+//   });
+// };
