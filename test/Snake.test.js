@@ -32,7 +32,7 @@ describe('snake', () => {
     const currentTail = snake.body[0];
     const head = snake.body[snake.body.length - 1];
     snake.offSetXYhead(1, 0, currentTail, head);
-    const actualX = currentTail.x;
+    const actualX = currentTail.x; //76 because of snake's body length. 15 x 5
     const actualY = currentTail.y;
 
     assert.equal(expectedX, actualX)
