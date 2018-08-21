@@ -16,4 +16,4 @@ A Turing- Module 2 project with:
 
 ## Screenshots
 Game play
-![HomePage](./src/images/snake.png "Game play")
+![HomePage](./images/snake.png "Game play")
