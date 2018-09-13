@@ -1,22 +1,22 @@
 # Snake
-## Overview
+### Overview
 
 Web App based off of the game
 Snake as seen on Nokia phones circa 1998. Built
-with JavaScript and HTML Canvas.
+with JavaScript and HTML Canvas. Hours to build: 60 hours.
 
-## Hours to build
-60 hours
+### Learning Goals
+HTML5 Canvas, OOP.
 
-## Setup
+### Setup
 ```
 npm install
 npm start
 ```
 
-## Collaborators
+### Collaborators
 [Keeliana Marler](https://github.com/kmarler2/),
 
-## Screenshots
+### Screenshots
 Game play
 ![HomePage](./images/snake.png "Game play")
